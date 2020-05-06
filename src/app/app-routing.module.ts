@@ -3,17 +3,17 @@ import { Routes, RouterModule } from '@angular/router';
 import { HomeComponent } from './home/home/home.component';
 import { MainCodingComponent } from "./coding/main-coding/main-coding.component";
 import { PageNotFoundComponent } from './other/page-not-found/page-not-found.component';
-import { MainPerformingComponent } from './perfroming/main-performing/main-performing.component';
-import { MainTravellingComponent } from './travelling/main-travelling/main-travelling.component';
 import { WebAppsComponent } from './coding/web-apps/web-apps.component';
 import { MobileAppsComponent } from './coding/mobile-apps/mobile-apps.component';
 import { GamingAppsComponent } from './coding/gaming-apps/gaming-apps.component';
+import { MainWorkComponent } from './work-experience/main-work/main-work.component';
+import { MainHobbiesComponent } from './hobbies/main-hobbies/main-hobbies.component';
 
 const routes: Routes = [{ path: "", component: HomeComponent },
 
 { path: "coding", component: MainCodingComponent },
-{ path: "travelling", component: MainTravellingComponent },
-{ path: "performing", component: MainPerformingComponent },
+{ path: "work", component: MainWorkComponent },
+{ path: "extracurricular", component: MainHobbiesComponent },
 
 { path: "projects/web", component: WebAppsComponent },
 { path: "projects/mobile", component: MobileAppsComponent },

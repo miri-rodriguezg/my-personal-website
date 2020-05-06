@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MainCodingComponent implements OnInit {
 
+  nav = "coding";
+
   constructor() { }
 
   ngOnInit(): void {

@@ -1,29 +1,45 @@
+th {
+  font-family: "kozuka-gothic-pro", sans-serif;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 25px;
+  text-align: center;
+  margin-top: 0;
+  width: 30%;
+}
+
+p {
+  font-family: "kozuka-gothic-pro", sans-serif;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 19px;
+  text-align: center;
+  margin-top: 0;
+}
+
+
 h1 {
-    font-family: "kozuka-gothic-pro", sans-serif;
-    font-style: normal;
-    font-weight: 200;
-    font-size: 25px;
-    text-align: center;
-    margin-top: 0;
-    margin-bottom: 10;
-  }
-  
-  a {
-    font-family: "kozuka-gothic-pro", sans-serif;
-    font-style: normal;
-    font-weight: 200;
-    font-size: 20px;
-    text-align: center;
-    margin-top: 0;
-    margin-bottom: 10;
-  }
-  
-  th {
-    font-family: "kozuka-gothic-pro", sans-serif;
-    font-style: normal;
-    font-weight: 100;
-    font-size: 25px;
-    text-align: center;
-    margin-top: 0;
-  }
-  
+  border-bottom: 3px solid lightsteelblue;
+  display: inline-block;
+  font-family: "kozuka-gothic-pro", sans-serif;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 22px;
+  text-align: center;
+  margin-top: 0;
+  color: black;
+  text-decoration: none;
+}
+
+h2 {
+  border-bottom: 3px solid lightsteelblue;
+  display: inline-block;
+  font-family: "kozuka-gothic-pro", sans-serif;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 15px;
+  text-align: center;
+  margin-top: 0;
+  color: black;
+  text-decoration: none;
+}
