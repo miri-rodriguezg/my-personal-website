@@ -1,4 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
 import { NgModule } from '@angular/core';
 import { HttpClientModule } from "@angular/common/http";
 import { RouterModule } from "@angular/router";
@@ -20,6 +22,9 @@ import { GamingAppsComponent } from './coding/gaming-apps/gaming-apps.component'
 import { MainWorkComponent } from './work-experience/main-work/main-work.component';
 import { MainHobbiesComponent } from './hobbies/main-hobbies/main-hobbies.component';
 import { ActivitiesComponent } from './hobbies/activities/activities.component';
+import { PerformingComponent } from './hobbies/performing/performing.component';
+import { TravellingComponent } from './hobbies/travelling/travelling.component';
+import { SportsComponent } from './hobbies/sports/sports.component';
 
 
 @NgModule({
@@ -42,12 +47,16 @@ import { ActivitiesComponent } from './hobbies/activities/activities.component';
 
     MainHobbiesComponent,
     ActivitiesComponent,
+    PerformingComponent,
+    TravellingComponent,
+    SportsComponent,
 
   ],
   imports: [
     HttpClientModule,
     AppRoutingModule,
     BrowserModule,
+    BrowserAnimationsModule,
     RouterModule.forChild([{ path: "", component: HomeComponent }])
   ],
   providers: [],

@@ -8,16 +8,23 @@ import { MobileAppsComponent } from './coding/mobile-apps/mobile-apps.component'
 import { GamingAppsComponent } from './coding/gaming-apps/gaming-apps.component';
 import { MainWorkComponent } from './work-experience/main-work/main-work.component';
 import { MainHobbiesComponent } from './hobbies/main-hobbies/main-hobbies.component';
+import { PerformingComponent } from './hobbies/performing/performing.component';
+import { TravellingComponent } from './hobbies/travelling/travelling.component';
+import { SportsComponent } from './hobbies/sports/sports.component';
 
 const routes: Routes = [{ path: "", component: HomeComponent },
 
 { path: "coding", component: MainCodingComponent },
 { path: "work", component: MainWorkComponent },
-{ path: "extracurricular", component: MainHobbiesComponent },
+{ path: "extracurricular", component: PageNotFoundComponent },
 
 { path: "projects/web", component: WebAppsComponent },
 { path: "projects/mobile", component: MobileAppsComponent },
 { path: "projects/gaming", component: GamingAppsComponent },
+
+{ path: "activities/performing", component: PerformingComponent },
+{ path: "activities/travelling", component: TravellingComponent },
+{ path: "activities/sports", component: SportsComponent },
 
 { path: "page-not-found", component: PageNotFoundComponent },
 { path: "**", redirectTo: "page-not-found", pathMatch: "full" }];
