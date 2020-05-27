@@ -1,20 +1,100 @@
-<a routerLink = "/extracurricular"> < Back to Extracurricular Activities</a>
 <custom-header></custom-header>
-<div>
+
+<div class = "navigation">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <table align = "center" cellpadding="4">
         <tr>
-            <th>
-                <a routerLink="">home</a>
-            </th>
-            <th>
-                <a routerLink="/coding">coding</a>
-            </th>
-            <th>
-                <a routerLink="/work">work</a>
-            </th> 
-            <th>
-                <a routerLink="/extracurricular" routerLinkActive = "active">extracurricular </a>
-            </th> 
+                <th>
+                    <a routerLink="/activities/sports"><h4>< Go to Sport Activities</h4></a>
+                </th>
+
+            <div>
+                <th>
+                    <a routerLink="">home</a>
+                </th>
+                <th>
+                    <a routerLink="/about">about</a>
+                </th>
+                <th>
+                    <a routerLink="/coding">coding</a>
+                </th>
+                <th>
+                    <a routerLink="/work">work</a>
+                </th> 
+                <th>
+                    <a routerLink="/extracurricular">extracurricular</a>
+                </th> 
+                <th>
+                    <a routerLink="/activities/travelling"><h4>Go to Travelling Activities ></h4></a>
+                </th>
+            </div>
         </tr>
     </table>
 </div>  
+
+<div class = "scrollable">
+    <table align = "center" cellpadding="20" >
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <tr>
+            <td>
+                <video controls = "controls" width="550" height="310">
+                    <source src="assets/videos/asturias.mp4" >
+                </video>
+            </td>
+            <td>
+                <div class = "description">
+                    <h1>Guitar</h1>
+                    <h3>Received 2 year guitar lessons and have been self-teaching it ever since with YouTube and online tutorials.</h3>
+                    <h3>I love learning rock riffs with my electric guitar and fingerstyle and spanish traditional strumming styles with my acoustic and classic guitars. </h3>
+
+                </div>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <video controls = "controls" width="550" height="310">
+                    <source src="assets/videos/bohemian.MOV" >
+                </video>
+            </td>
+            <td>
+                <div class = "description">
+                    <h1>Piano</h1>
+                    <h3>I first started learning piano with an interactive keyboard and continued self-teaching it with online tutorials.</h3>
+                    <h3>I can barely read musical sheets, but I love how the hands easily remember which keys to play and improvise otherwise!</h3>
+                </div>    
+            </td>
+        </tr>
+        
+        <tr>
+            <td>
+                <video controls = "controls" width="550" height="310">
+                    <source src="assets/videos/street.mov" >
+                </video>
+            </td>
+            <td>
+                <div class="description">
+                    <h1>Public Performing</h1>
+                    <h3>Played in two of Madrid's city center hotspots, Plaza del Sol and Retiro Park, where I got to make some money and jam with tourists and strangers passing by!</h3>
+                    <h3>I performed in several school talent shows and events, receiving first and second place awards.</h3>
+                </div>
+            </td>
+        </tr>
+
+        <!--
+        <tr>
+            <td>
+
+            </td>
+            <td>
+                <div class="description">
+                    <h1>Stage Perfroming</h1>
+                    <h3>Perfromed in various talent shows and school events.</h3>
+                </div>
+            </td>
+        </tr>
+        -->
+    </table>
+</div>

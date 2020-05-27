@@ -11,12 +11,14 @@ import { MainHobbiesComponent } from './hobbies/main-hobbies/main-hobbies.compon
 import { PerformingComponent } from './hobbies/performing/performing.component';
 import { TravellingComponent } from './hobbies/travelling/travelling.component';
 import { SportsComponent } from './hobbies/sports/sports.component';
+import { AboutComponent } from './about/about.component';
 
 const routes: Routes = [{ path: "", component: HomeComponent },
 
+{ path: "about", component: AboutComponent },
 { path: "coding", component: MainCodingComponent },
 { path: "work", component: MainWorkComponent },
-{ path: "extracurricular", component: PageNotFoundComponent },
+{ path: "extracurricular", component: MainHobbiesComponent },
 
 { path: "projects/web", component: WebAppsComponent },
 { path: "projects/mobile", component: MobileAppsComponent },

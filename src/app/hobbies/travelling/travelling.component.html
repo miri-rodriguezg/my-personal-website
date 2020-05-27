@@ -1,20 +1,90 @@
-<a routerLink = "/extracurricular"> < Back to Extracurricular Activities</a>
 <custom-header></custom-header>
-<div>
+
+<div class = "navigation">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <table align = "center" cellpadding="4">
         <tr>
             <th>
-                <a routerLink="">home</a>
+                <div>
+                    <a routerLink="/activities/performing"><h4>< Go to Performing Activities</h4></a>   
+                </div>
             </th>
+            <div>
+                <th>
+                    <a routerLink="">home</a>
+                </th>
+                <th>
+                    <a routerLink="/about">about</a>
+                </th>
+                <th>
+                    <a routerLink="/coding">coding</a>
+                </th>
+                <th>
+                    <a routerLink="/work">work</a>
+                </th> 
+                <th>
+                    <a routerLink="/extracurricular" >extracurricular</a>
+                </th> 
+            </div>
             <th>
-                <a routerLink="/coding">coding</a>
+                <div>
+                <a routerLink="/activities/sports"><h4>Go to Sports Activities ></h4></a>   
+                </div>
             </th>
-            <th>
-                <a routerLink="/work">work</a>
-            </th> 
-            <th>
-                <a routerLink="/extracurricular" routerLinkActive = "active">extracurricular </a>
-            </th> 
         </tr>
     </table>
 </div>  
+
+<div class = "scrollable">
+    <table align = "center" cellpadding="20" >
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <tr>
+            <td align="center">
+                    <img src="assets/images/languages.jpg" 
+                    width="400"
+                    height="300">
+            </td>
+            <td align="center">
+                <div class="description">
+                    <h1>Languages</h1>
+                    <h3>I grew up with a bilingual education and graduated school with both Spanish and English high school diplomas and proficiency in both languages.</h3>
+                    <h3>I learnt French as an extracurricular and attending summer camps, achieving the equivalent of a B2 level.</h3>
+                    <h3>I did a one month exchange program in Germany and continued self-teaching the language, receiving the equivalent of an A2.</h3>
+                </div>
+            </td>
+        </tr>
+
+        <tr>
+            <td align="center"> 
+                <img src="assets/images/carcamping.jpg" 
+                width="400"
+                height="450">
+            </td>
+            <td>
+                <div class="description">
+                    <h1>Van Life & Camping</h1>
+                    <h3>Spent weeks living in my 1997 old car, roadtripping across all the US West Coast and National Parks. </h3>
+                    <h3>I love being in contact with nature and try to go camping once a year where I get to go on hikes, sleep under the stars, swim in lakes and stay in the wilderness.</h3>
+                </div>
+            </td>
+        </tr>
+        
+        <tr>
+            <td align="center">
+                <img src="assets/images/spheres.jpg" 
+                width="350"
+                height="400">
+            </td>
+            <td>
+                <div class="description">
+                    <h1>CouchSurfing Community</h1>
+                    <h3>I am a member of the couchsurfing community where I host and go to other people's houses for free with the sole purposes of making travelling easier and cheaper for people who share this passion.</h3>
+                    <h3>I got to meet people from all over the world and hear about their cultures, travelling experiences and create new ones by going on hikes or showing eachother around our cities. </h3>
+                </div>
+            </td>
+        </tr>
+
+    </table>
+</div>

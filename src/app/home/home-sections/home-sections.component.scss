@@ -1,4 +1,4 @@
-th {
+td {
     font-family: "kozuka-gothic-pro", sans-serif;
     font-style: normal;
     font-weight: 100;
@@ -43,3 +43,22 @@ th {
     color: black;
     text-decoration: none;
   }
+  
+  @media only screen and (max-width: 1250px) {
+
+    .scrollable tr { display: block; float: left ;
+    }
+    .scrollable th { display: block; }
+
+    .scrollable td { display: block;  padding: 40px;
+    }
+
+    .scrollable p{
+      font-size: 16px;
+    } 
+
+    .scrollable h1{
+      font-size: 19px;
+    } 
+  }
+

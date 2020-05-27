@@ -18,7 +18,7 @@ p {
 }
 
 
-h1 {
+h1{
   border-bottom: 3px solid lightsteelblue;
   display: inline-block;
   font-family: "kozuka-gothic-pro", sans-serif;
@@ -31,7 +31,7 @@ h1 {
   text-decoration: none;
 }
 
-h2 {
+h2{
   border-bottom: 3px solid lightsteelblue;
   display: inline-block;
   font-family: "kozuka-gothic-pro", sans-serif;
@@ -42,4 +42,12 @@ h2 {
   margin-top: 0;
   color: black;
   text-decoration: none;
+}
+
+@media only screen and (max-width: 900px) {
+  /* stack here */
+  .scrollable table, th{
+      display: block;
+      width: 100%;
+  }
 }

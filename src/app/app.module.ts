@@ -1,5 +1,8 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+
+
 
 import { NgModule } from '@angular/core';
 import { HttpClientModule } from "@angular/common/http";
@@ -13,7 +16,6 @@ import { CustomHeaderComponent } from './other/custom-header/custom-header.compo
 import { PageNotFoundComponent } from "./other/page-not-found/page-not-found.component";
 import { HomeComponent } from './home/home/home.component';
 
-import { SkillsComponent } from './coding/skills/skills.component';
 import { ProjectsComponent } from './coding/projects/projects.component';
 import { HomeSectionsComponent } from './home/home-sections/home-sections.component';
 import { WebAppsComponent } from './coding/web-apps/web-apps.component';
@@ -25,6 +27,7 @@ import { ActivitiesComponent } from './hobbies/activities/activities.component';
 import { PerformingComponent } from './hobbies/performing/performing.component';
 import { TravellingComponent } from './hobbies/travelling/travelling.component';
 import { SportsComponent } from './hobbies/sports/sports.component';
+import { AboutComponent } from './about/about.component';
 
 
 @NgModule({
@@ -37,7 +40,6 @@ import { SportsComponent } from './hobbies/sports/sports.component';
     HomeSectionsComponent,
 
     MainCodingComponent,
-    SkillsComponent,
     ProjectsComponent,
 
     MainWorkComponent,
@@ -50,6 +52,7 @@ import { SportsComponent } from './hobbies/sports/sports.component';
     PerformingComponent,
     TravellingComponent,
     SportsComponent,
+    AboutComponent,
 
   ],
   imports: [
@@ -57,7 +60,11 @@ import { SportsComponent } from './hobbies/sports/sports.component';
     AppRoutingModule,
     BrowserModule,
     BrowserAnimationsModule,
+    BrowserModule, 
     RouterModule.forChild([{ path: "", component: HomeComponent }])
+  ],
+  exports:[
+    
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -39,8 +39,14 @@ h1 {
     color: steelblue;
   }
   
-  div {
+  .boxed {
     border: 5px solid lightsteelblue;
+    border-style: solid;
     margin-top: 0;
   }
   
+  .scrollable{
+    margin-top: 100px;
+    position: fixed;
+    width:100%
+  }
