@@ -9,11 +9,6 @@ export class AboutComponent implements OnInit {
 
   constructor() { }
 
-  downloadResume(){
-    window.open('/assets/files/resume.pdf', '_blank');
-  }
-  
-
   ngOnInit(): void {
   }
 
