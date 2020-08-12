@@ -32,7 +32,10 @@ const routes: Routes = [{ path: "", component: HomeComponent },
 { path: "**", redirectTo: "page-not-found", pathMatch: "full" }];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forRoot(routes,{
+    scrollPositionRestoration: 'enabled'
+  }
+    )],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
